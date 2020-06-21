@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Header from './header';
+import About from './about';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -14,7 +15,7 @@ ReactDOM.render(
 );
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <About />
   </React.StrictMode>,
   document.getElementById('about')
 );

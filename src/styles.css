@@ -69,3 +69,11 @@ ul {
 li {
   margin-right: 2rem;
 }
+
+.a-image {
+  width: 30rem;
+  height: 30rem;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(/IMG_1226.jpeg);
+}
