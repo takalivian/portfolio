@@ -22,17 +22,36 @@ class Web extends Component {
   marginStyle = {
     marginRight: "10%"
   };
+  linkStyle = {
+    color: "#fff",
+    height: "fit-content",
+    textDecoration: "none"
+  };
   render() {
     return <div style={this.titleStyle}>
       <div style={this.marginStyle}>
         <h1>Men's Cosmetic</h1>
-        <div class="mencos-img"></div>
+        <div class="mencos-img">
+          <div class="mask">
+            <div class="caption">
+              <a href="https://github.com/takalivian/mencos" style={this.linkStyle}>GitHub</a>
+              <a href="https://www.mencos-t.com/" style={this.linkStyle}>サイト</a>
+            </div>
+          </div>
+        </div>
         <p>2020-6</p>
         <p>メンズ専用のコスメレビューサイトです。</p>
       </div>
       <div>
         <h1>Matching Baseball</h1>
-        <div class="baseball-img"></div>
+        <div class="baseball-img">
+          <div class="mask">
+            <div class="caption">
+              <a href="https://github.com/takalivian/B-salon" style={this.linkStyle}>GitHub</a>
+              <a href="http://matchingbaseball.tokyo/" style={this.linkStyle}>サイト</a>
+            </div>
+          </div>
+        </div>
         <p>2020-4</p>
         <p>草野球チームのマッチングサイトです。</p>
       </div>

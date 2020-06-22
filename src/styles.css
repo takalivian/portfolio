@@ -222,6 +222,30 @@ li {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
+  position:		relative;
+}
+.caption {
+  font-size: 1.6rem;
+  width: 13rem;
+  margin-left: 10%;
+  line-height: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+.mencos-img .mask {
+  width: 80.3%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: #000;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+.mencos-img:hover .mask {
+  opacity: 0.8;
+  padding-left: 90px;
 }
 
 .baseball-img {
@@ -231,6 +255,30 @@ li {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
+  position:		relative;
+}
+.caption {
+  font-size: 1.4rem;
+  width: 13rem;
+  margin-left: 10%;
+  line-height: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+.baseball-img .mask {
+  width: 80.3%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: #000;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+.baseball-img:hover .mask {
+  opacity: 0.8;
+  padding-left: 90px;
 }
 
 .github {
