@@ -5,8 +5,8 @@ class List extends Component {
   render() {
     return <div>
       <ul>
-        <li>about</li>
-        <li>skill</li>
+        <li id="list1">about</li>
+        <li id="list2">skill</li>
         <li>work</li>
         <li>contact</li>
       </ul>

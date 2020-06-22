@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Header from './header';
 import About from './about';
+import Skill from './skill';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -18,6 +19,12 @@ ReactDOM.render(
     <About />
   </React.StrictMode>,
   document.getElementById('about')
+);
+ReactDOM.render(
+  <React.StrictMode>
+    <Skill />
+  </React.StrictMode>,
+  document.getElementById('skill')
 );
 
 // If you want your app to work offline and load faster, you can change

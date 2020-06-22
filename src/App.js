@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Sample from './sample';
 import './App.css';
- 
+
 class Name extends Component {
   render() {
     return <div>
