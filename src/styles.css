@@ -60,6 +60,15 @@ body {
   height: 100vh;
   padding: 5rem 0;
 }
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #f0f0f0;
+  height: 30vh;
+}
  
 .card {
   width: 80ch;
@@ -222,4 +231,39 @@ li {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.github {
+  background-image: url(https://classmethod.jp/wp-content/uploads/2017/03/partner-logo-githubenterprise.png);
+  width: 7rem;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 100%;
+}
+.github:hover{
+	animation: rumble 0.12s linear infinite;
+}
+ 
+@keyframes rumble{
+	0%	{transform:rotate(0deg)	translate(0,0);}
+	12.5%	{transform:rotate(0.4deg)	translate(1px,-1px);}
+	25%	{transform:rotate(0.8deg)	translate(0px,1px);}
+	37.5%	{transform:rotate(0.4deg)	translate(-1px,0);}
+	50%	{transform:rotate(0deg)	translate(0,0);}
+	62.5%	{transform:rotate(-0.4deg)	translate(1px,0);}
+	75%	{transform:rotate(-0.8deg)	translate(0,1px);}
+	87.5%	{transform:rotate(-0.4deg)	translate(-1px,-1px);}
+	100%	{transform:rotate(0deg)	translate(0,0);}
+}
+
+.twitter {
+  background-image: url(https://kohrogi.com/wp/wp-content/uploads/2014/09/1cc6858dcc5d31363b5ed0e3cc3af94a.jpg);
+  width: 7rem;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.twitter:hover{
+	animation: rumble 0.12s linear infinite;
 }
