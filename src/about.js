@@ -10,8 +10,14 @@ class Atitle extends Component {
 }
 
 class Aimage extends Component {
+  imageStyle = {
+    border: "10px solid white"
+  };
   render() {
     return <div class="a-image">
+      <a href="IMG_1226.jpeg" data-lightbox="group">
+        <img src="IMG_1226.jpeg" width="490" style={this.imageStyle} />
+        </a>
     </div>
   }
 }
@@ -19,7 +25,7 @@ class Aimage extends Component {
 class Aabout extends Component {
   titleStyle = {
     writingMode: "horizontal-tb",
-    margin: "auto"
+    marginRight: "20%"
   };
   render() {
     return <div style={this.titleStyle}>
