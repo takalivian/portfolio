@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Link, animateScroll as scroll } from "react-scroll";
+import ScrollUp from './ScrollUp';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
  
 class Ctitle extends Component {
   render() {
@@ -18,6 +21,26 @@ class Cimage extends Component {
   }
 }
 
+class Footer extends Component {
+  style = {
+    cursor: "pointer",
+    fontSize: "xxx-large",
+    color: "#000",
+    position: "absolute",
+    right: "10%",
+    top: "45%"
+  };
+
+  scrollToTop = () => {
+    scroll.scrollToTop(); 
+  };
+  render() {
+    return <div style={this.style} onClick={this.scrollToTop}>
+      <FontAwesomeIcon icon={['fa', 'arrow-up']} />
+    </div>;
+  }
+}
+
 function Contact() {
   const style = {
     writingMode: "vertical-rl",
@@ -26,6 +49,7 @@ function Contact() {
   return (
     <div className="App">
       <div style={style}>
+        <Footer />
         <Cimage />
         <Ctitle />
       </div>
