@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Link, animateScroll as scroll } from "react-scroll";
-import ScrollUp from './ScrollUp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
  
 class Ctitle extends Component {
