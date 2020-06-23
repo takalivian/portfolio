@@ -316,3 +316,7 @@ li {
 .twitter:hover{
 	animation: rumble 0.12s linear infinite;
 }
+
+.active {
+  border-bottom: 2px solid #000;
+}
