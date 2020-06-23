@@ -245,7 +245,7 @@ li {
   transition: all 0.8s ease;
 }
 .mencos-img:hover .mask {
-  opacity: 0.8;
+  opacity: 0.7;
   padding-left: 90px;
 }
 
@@ -278,7 +278,7 @@ li {
   transition: all 0.8s ease;
 }
 .baseball-img:hover .mask {
-  opacity: 0.8;
+  opacity: 0.7;
   padding-left: 90px;
 }
 
@@ -319,4 +319,8 @@ li {
 
 .active {
   border-bottom: 2px solid #000;
+}
+.active:hover {
+  animation: rumble 0.12s linear infinite;
+  opacity: 0.5;
 }
