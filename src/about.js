@@ -32,7 +32,7 @@ class Aabout extends Component {
       <h1>高村 尚郁</h1>
       <br></br>
       <p>1994年 9月13日 生まれ</p>
-      <p>2016年大学卒業後、化学品商社に入社。</p>
+      <p>2017年大学卒業後、化学品商社に入社。</p>
       <p>事務職として約４年間務めました。</p>
       <p>退職後はプログラミングスクールに通い、</p>
       <p>HTML・CSS・JavaScript・JQuery・Ruby・Railsを学んだ。</p>
