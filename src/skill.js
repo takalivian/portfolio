@@ -60,6 +60,7 @@ class Main extends Component {
 
 function Skill() {
   const style = {
+    letterSpacing: "0.1rem",
     writingMode: "vertical-rl"
   };
   return (

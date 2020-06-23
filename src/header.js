@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import ReactDOM from 'react-dom'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class List extends Component {
   style = {
     color: "#000",
+    letterSpacing: "0.1rem",
     textDecoration: "none"
   };
   render() {

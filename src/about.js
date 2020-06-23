@@ -16,7 +16,7 @@ class Aimage extends Component {
   render() {
     return <div class="a-image">
       <a href="IMG_1226.jpeg" data-lightbox="group">
-        <img src="IMG_1226.jpeg" width="490" style={this.imageStyle} />
+        <img src="IMG_1226.jpeg" alt="" width="490" style={this.imageStyle} />
         </a>
     </div>
   }
@@ -43,6 +43,7 @@ class Aabout extends Component {
 
 function About() {
   const style = {
+    letterSpacing: "0.1rem",
     writingMode: "vertical-rl"
   };
   return (

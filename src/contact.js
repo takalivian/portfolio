@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
  
 class Ctitle extends Component {
@@ -42,6 +42,7 @@ class Footer extends Component {
 
 function Contact() {
   const style = {
+    letterSpacing: "0.1rem",
     writingMode: "vertical-rl",
     width: "18rem"
   };

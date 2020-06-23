@@ -61,6 +61,7 @@ class Web extends Component {
 
 function Work() {
   const style = {
+    letterSpacing: "0.1rem",
     writingMode: "vertical-rl"
   };
   return (
