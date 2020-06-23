@@ -1,2 +1,2 @@
 *.js linguist-vendored
-*.* linguist-language=React
+*.* linguist-language=react
